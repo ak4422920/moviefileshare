@@ -15,7 +15,7 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://tera:tera@cluster0.fgu4b.mongod
 DB_NAME = os.environ.get("DB_NAME", "akmoviebotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002449565533"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002378838790"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001785093771"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002198396079"))
 
