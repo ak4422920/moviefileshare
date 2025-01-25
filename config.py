@@ -11,16 +11,16 @@ API_HASH = os.environ.get("API_HASH", "7ea2149629e445936619f06a3c0dc716")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "7251898668"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://tera:tera@cluster0.fgu4b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "akmoviebotz")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://akc:akc@cluster0.w6hlw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "filesharexbot")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002378838790"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002302070808"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001785093771"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002198396079"))
 
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "3600")) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8080")
@@ -45,7 +45,7 @@ except ValueError:
 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 DISABLE_CHANNEL_BUTTON = True if os.environ.get('DISABLE_CHANNEL_BUTTON', "False") == "True" else False
 
