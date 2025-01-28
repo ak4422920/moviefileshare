@@ -16,7 +16,7 @@ DB_NAME = os.environ.get("DB_NAME", "filesharexbot")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002302070808"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001785093771"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 
 
